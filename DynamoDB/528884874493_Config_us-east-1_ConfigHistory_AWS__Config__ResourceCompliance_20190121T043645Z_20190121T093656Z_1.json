@@ -1,0 +1,905 @@
+{
+    "fileVersion": "1.0",
+    "configurationItems": [
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T04:36:45.626Z",
+            "configurationStateId": 1548045405626,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/config-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/config-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T05:36:55.623Z",
+            "configurationStateId": 1548049015623,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T06:36:56.789Z",
+            "configurationStateId": 1548052616789,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/config-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/config-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T06:36:57.491Z",
+            "configurationStateId": 1548052617491,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:54.754Z",
+            "configurationStateId": 1548056214754,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/config-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/config-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:55.195Z",
+            "configurationStateId": 1548056215195,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T08:36:57.294Z",
+            "configurationStateId": 1548059817294,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/config-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/config-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T09:36:56.829Z",
+            "configurationStateId": 1548063416829,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T04:36:45.584Z",
+            "configurationStateId": 1548045405584,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/grid-salt-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/grid-salt-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/grid-salt-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T05:36:55.563Z",
+            "configurationStateId": 1548049015563,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/grid-salt-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:54.745Z",
+            "configurationStateId": 1548056214745,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/grid-salt-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/grid-salt-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/grid-salt-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:55.209Z",
+            "configurationStateId": 1548056215209,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/grid-salt-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T04:36:45.686Z",
+            "configurationStateId": 1548045405686,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-kinesis-unencrypted-stream-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/guardrail-kinesis-unencrypted-stream-prod-ml76594-DLQ",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/guardrail-kinesis-unencrypted-stream-prod-ml76594-DLQ",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T05:36:55.565Z",
+            "configurationStateId": 1548049015565,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-kinesis-unencrypted-stream-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:54.743Z",
+            "configurationStateId": 1548056214743,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-kinesis-unencrypted-stream-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/guardrail-kinesis-unencrypted-stream-prod-ml76594-DLQ",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/guardrail-kinesis-unencrypted-stream-prod-ml76594-DLQ",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:55.194Z",
+            "configurationStateId": 1548056215194,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-kinesis-unencrypted-stream-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T04:36:45.608Z",
+            "configurationStateId": 1548045405608,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T05:36:55.556Z",
+            "configurationStateId": 1548049015556,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T06:36:56.793Z",
+            "configurationStateId": 1548052616793,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T06:36:57.490Z",
+            "configurationStateId": 1548052617490,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:54.742Z",
+            "configurationStateId": 1548056214742,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:55.210Z",
+            "configurationStateId": 1548056215210,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-s3-unauth-sse-encrypt-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T04:36:45.581Z",
+            "configurationStateId": 1548045405581,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-sqs-unencrypted-queue-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/guardrail-sqs-unencrypted-queue-prod-ml76594-DLQ",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/guardrail-sqs-unencrypted-queue-prod-ml76594-DLQ",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T05:36:55.564Z",
+            "configurationStateId": 1548049015564,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-sqs-unencrypted-queue-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:54.745Z",
+            "configurationStateId": 1548056214745,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-sqs-unencrypted-queue-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/guardrail-sqs-unencrypted-queue-prod-ml76594-DLQ",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/guardrail-sqs-unencrypted-queue-prod-ml76594-DLQ",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:55.215Z",
+            "configurationStateId": 1548056215215,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/guardrail-sqs-unencrypted-queue-prod-ml76594-DLQ",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T04:36:45.584Z",
+            "configurationStateId": 1548045405584,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-cloudtrail-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/splunk-cloudtrail-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/splunk-cloudtrail-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T05:36:55.555Z",
+            "configurationStateId": 1548049015555,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-cloudtrail-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:54.753Z",
+            "configurationStateId": 1548056214753,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-cloudtrail-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/splunk-cloudtrail-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/splunk-cloudtrail-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:55.204Z",
+            "configurationStateId": 1548056215204,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-cloudtrail-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T04:36:45.624Z",
+            "configurationStateId": 1548045405624,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/splunk-config-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/splunk-config-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T05:36:55.554Z",
+            "configurationStateId": 1548049015554,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T06:36:56.844Z",
+            "configurationStateId": 1548052616844,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/splunk-config-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/splunk-config-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T06:36:57.490Z",
+            "configurationStateId": 1548052617490,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:54.752Z",
+            "configurationStateId": 1548056214752,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDeleted",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [],
+            "configuration": {
+                "complianceType": "NON_COMPLIANT",
+                "targetResourceId": "https://queue.amazonaws.com/528884874493/splunk-config-queue",
+                "targetResourceType": "AWS::SQS::Queue",
+                "configRuleList": [
+                    {
+                        "configRuleArn": "arn:aws:config:us-east-1:528884874493:config-rule/config-rule-z200ff",
+                        "configRuleId": "config-rule-z200ff",
+                        "configRuleName": "guardrail-sqs-unencrypted-queue-prod",
+                        "complianceType": "NON_COMPLIANT"
+                    }
+                ]
+            },
+            "supplementaryConfiguration": {
+                "unsupportedResources": [
+                    {
+                        "resourceId": "https://queue.amazonaws.com/528884874493/splunk-config-queue",
+                        "resourceType": "AWS::SQS::Queue"
+                    }
+                ]
+            },
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T07:36:55.192Z",
+            "configurationStateId": 1548056215192,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::Config::ResourceCompliance",
+            "resourceId": "AWS::SQS::Queue/https://queue.amazonaws.com/528884874493/splunk-config-queue",
+            "awsRegion": "us-east-1",
+            "configurationStateMd5Hash": ""
+        }
+    ]
+}
