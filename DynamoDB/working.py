@@ -61,24 +61,6 @@ def lambda_handler():
                         new_dict['configurationItemCaptureTime'] = i['configurationItemCaptureTime'] if i['configurationItemCaptureTime'] else None
                         try:
                                 cursor.execute("insert into Inventory_check(resourceId, awsAccountId, configurationItemStatus, resourceType, arn, awsRegion,configurationItemCaptureTime,configurationStateId) values (?,?,?,?,?,?,?,?)",str(new_dict['resourceId']),str(new_dict['awsAccountId']),str(new_dict['configurationItemStatus']),str(new_dict['resourceType']),str(new_dict['arn']),str(new_dict['awsRegion']), str(new_dict['configurationItemCaptureTime']), str(new_dict['configurationStateId']))
-                                if new_dict['tags'] != None:
-                                        for key, value in new_dict['tags'].iteritems():
-                                                sql = '''
-                                                        IF COL_LENGTH('dbo.Inventory_tags', '{}') IS NULL
-                                                        BEGIN
-                                                        ALTER TABLE dbo.Inventory_tags ADD {} CHAR(200) NULL
-                                                        END
-                                                        ELSE
-                                                        BEGIN
-                                                        INSERT INTO dbo.Inventory_tags({}) values ({})
-                                                        END
-                                                        '''.format(key,key,key,value)
-                                                cursor.execute(sql)
-
-                                                sql2 = '''
-                                                        INSERT INTO dbo.Inventory_tags(resourceId,{}) values (str(new_dict[resourceId'                                                           ]),{}
-                                                        '''.format(str(key),str(value))
-                                                cursor.execute(sql2)
                         except Exception as e:
                                 print(e)
                 except Exception as e:

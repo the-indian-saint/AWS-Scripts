@@ -1,1 +1,1462 @@
-{"fileVersion":"1.0","configurationItems":[{"relatedEvents":[],"relationships":[{"resourceId":"i-0cd115a62ded6616f","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:39.000Z","device":"/dev/sda1","instanceId":"i-0cd115a62ded6616f","state":"attached","volumeId":"vol-01bd9aba91902cb57","deleteOnTermination":true}],"availabilityZone":"us-east-1b","createTime":"2019-01-21T21:00:39.028Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-01bd9aba91902cb57","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:29.300Z","configurationStateId":1548104609300,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-01bd9aba91902cb57","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-01bd9aba91902cb57","awsRegion":"us-east-1","availabilityZone":"us-east-1b","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:39.028Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-06383578356127aea","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:40.000Z","device":"/dev/sda1","instanceId":"i-06383578356127aea","state":"attached","volumeId":"vol-01cf977ad5c98475c","deleteOnTermination":true}],"availabilityZone":"us-east-1e","createTime":"2019-01-21T21:01:40.918Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-01cf977ad5c98475c","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:25.851Z","configurationStateId":1548104605851,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-01cf977ad5c98475c","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-01cf977ad5c98475c","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:40.918Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-06e9ef8b5d6fec3a6","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:40.000Z","device":"/dev/sda1","instanceId":"i-06e9ef8b5d6fec3a6","state":"attached","volumeId":"vol-02db22500d466f4bc","deleteOnTermination":true}],"availabilityZone":"us-east-1b","createTime":"2019-01-21T21:01:40.879Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-02db22500d466f4bc","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:37.008Z","configurationStateId":1548104617008,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-02db22500d466f4bc","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-02db22500d466f4bc","awsRegion":"us-east-1","availabilityZone":"us-east-1b","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:40.879Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0c8806dbc76eeae01","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:41.000Z","device":"/dev/sda1","instanceId":"i-0c8806dbc76eeae01","state":"attached","volumeId":"vol-0351f3c09ce2bec59","deleteOnTermination":true}],"availabilityZone":"us-east-1c","createTime":"2019-01-21T21:01:41.021Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0351f3c09ce2bec59","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:04:04.643Z","configurationStateId":1548104644643,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0351f3c09ce2bec59","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0351f3c09ce2bec59","awsRegion":"us-east-1","availabilityZone":"us-east-1c","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:41.021Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0d6f48ee9423847f5","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:38.000Z","device":"/dev/sda1","instanceId":"i-0d6f48ee9423847f5","state":"attached","volumeId":"vol-03a9964c368be5108","deleteOnTermination":true}],"availabilityZone":"us-east-1e","createTime":"2019-01-21T21:00:38.587Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-03a9964c368be5108","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:25.851Z","configurationStateId":1548104605851,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-03a9964c368be5108","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-03a9964c368be5108","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:38.587Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0d6c8c1475d059480","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:10.000Z","device":"/dev/sda1","instanceId":"i-0d6c8c1475d059480","state":"attached","volumeId":"vol-03c359e9a802bf531","deleteOnTermination":true}],"availabilityZone":"us-east-1d","createTime":"2019-01-21T21:01:10.177Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-03c359e9a802bf531","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.656Z","configurationStateId":1548104618656,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-03c359e9a802bf531","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-03c359e9a802bf531","awsRegion":"us-east-1","availabilityZone":"us-east-1d","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:10.177Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0c96ae487a6a9c4fa","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:10.000Z","device":"/dev/sda1","instanceId":"i-0c96ae487a6a9c4fa","state":"attached","volumeId":"vol-03f9845dba79cf5ba","deleteOnTermination":true}],"availabilityZone":"us-east-1a","createTime":"2019-01-21T21:01:09.984Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-03f9845dba79cf5ba","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.656Z","configurationStateId":1548104618656,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-03f9845dba79cf5ba","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-03f9845dba79cf5ba","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:09.984Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-06e922b3fed20cecb","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:09.000Z","device":"/dev/sda1","instanceId":"i-06e922b3fed20cecb","state":"attached","volumeId":"vol-042318d20ae08e8e3","deleteOnTermination":true}],"availabilityZone":"us-east-1e","createTime":"2019-01-21T21:01:09.875Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-042318d20ae08e8e3","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:04:08.190Z","configurationStateId":1548104648190,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-042318d20ae08e8e3","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-042318d20ae08e8e3","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:09.875Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-03c314e9f238c96ba","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:41.000Z","device":"/dev/sda1","instanceId":"i-03c314e9f238c96ba","state":"attached","volumeId":"vol-043dcdcf1397c4583","deleteOnTermination":true}],"availabilityZone":"us-east-1a","createTime":"2019-01-21T21:01:41.864Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-043dcdcf1397c4583","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:04:51.052Z","configurationStateId":1548104691052,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-043dcdcf1397c4583","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-043dcdcf1397c4583","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:41.864Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0ae782dd2b41ea3a7","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:38.000Z","device":"/dev/sda1","instanceId":"i-0ae782dd2b41ea3a7","state":"attached","volumeId":"vol-051effafca8a05af6","deleteOnTermination":true}],"availabilityZone":"us-east-1e","createTime":"2019-01-21T21:00:38.760Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-051effafca8a05af6","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:25.851Z","configurationStateId":1548104605851,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-051effafca8a05af6","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-051effafca8a05af6","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:38.760Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-061c3c8a1da5357c8","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:39.000Z","device":"/dev/sda1","instanceId":"i-061c3c8a1da5357c8","state":"attached","volumeId":"vol-057c4c11763c93b0c","deleteOnTermination":true}],"availabilityZone":"us-east-1c","createTime":"2019-01-21T21:00:39.447Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-057c4c11763c93b0c","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:00.330Z","configurationStateId":1548104580330,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-057c4c11763c93b0c","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-057c4c11763c93b0c","awsRegion":"us-east-1","availabilityZone":"us-east-1c","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:39.447Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0be5e03e90ef8b2d7","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:10.000Z","device":"/dev/sda1","instanceId":"i-0be5e03e90ef8b2d7","state":"attached","volumeId":"vol-05b8469d1206d92c5","deleteOnTermination":true}],"availabilityZone":"us-east-1b","createTime":"2019-01-21T21:01:10.499Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-05b8469d1206d92c5","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:04:04.643Z","configurationStateId":1548104644643,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-05b8469d1206d92c5","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-05b8469d1206d92c5","awsRegion":"us-east-1","availabilityZone":"us-east-1b","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:10.499Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0aebd856fd4ab18ee","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:09.000Z","device":"/dev/sda1","instanceId":"i-0aebd856fd4ab18ee","state":"attached","volumeId":"vol-05cb90ca6a0ffb81a","deleteOnTermination":true}],"availabilityZone":"us-east-1a","createTime":"2019-01-21T21:01:09.922Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-05cb90ca6a0ffb81a","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.656Z","configurationStateId":1548104618656,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-05cb90ca6a0ffb81a","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-05cb90ca6a0ffb81a","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:09.922Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0ff6619e0c262c883","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:10.000Z","device":"/dev/sda1","instanceId":"i-0ff6619e0c262c883","state":"attached","volumeId":"vol-067412fcff4b76a75","deleteOnTermination":true}],"availabilityZone":"us-east-1b","createTime":"2019-01-21T21:01:10.518Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-067412fcff4b76a75","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:04:04.643Z","configurationStateId":1548104644643,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-067412fcff4b76a75","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-067412fcff4b76a75","awsRegion":"us-east-1","availabilityZone":"us-east-1b","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:10.518Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-08109f8a27a27814a","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:10.000Z","device":"/dev/sda1","instanceId":"i-08109f8a27a27814a","state":"attached","volumeId":"vol-06c08cb257cfa0c03","deleteOnTermination":true}],"availabilityZone":"us-east-1d","createTime":"2019-01-21T21:01:10.183Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-06c08cb257cfa0c03","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.656Z","configurationStateId":1548104618656,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-06c08cb257cfa0c03","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-06c08cb257cfa0c03","awsRegion":"us-east-1","availabilityZone":"us-east-1d","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:10.183Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0cd22044bbcb0345d","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:10.000Z","device":"/dev/sda1","instanceId":"i-0cd22044bbcb0345d","state":"attached","volumeId":"vol-07d0a1b7d8a006660","deleteOnTermination":true}],"availabilityZone":"us-east-1c","createTime":"2019-01-21T21:01:10.282Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-07d0a1b7d8a006660","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.312Z","configurationStateId":1548104618312,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-07d0a1b7d8a006660","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-07d0a1b7d8a006660","awsRegion":"us-east-1","availabilityZone":"us-east-1c","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:10.282Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-08457b70ae6665742","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:39.000Z","device":"/dev/sda1","instanceId":"i-08457b70ae6665742","state":"attached","volumeId":"vol-085d27c34c8e5e365","deleteOnTermination":true}],"availabilityZone":"us-east-1b","createTime":"2019-01-21T21:00:39.045Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-085d27c34c8e5e365","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:29.300Z","configurationStateId":1548104609300,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-085d27c34c8e5e365","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-085d27c34c8e5e365","awsRegion":"us-east-1","availabilityZone":"us-east-1b","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:39.045Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0e0d8d606e355a935","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:42.000Z","device":"/dev/sda1","instanceId":"i-0e0d8d606e355a935","state":"attached","volumeId":"vol-088ea614fd96c8bea","deleteOnTermination":true}],"availabilityZone":"us-east-1a","createTime":"2019-01-21T21:01:41.852Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-088ea614fd96c8bea","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:04:51.052Z","configurationStateId":1548104691052,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-088ea614fd96c8bea","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-088ea614fd96c8bea","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:41.852Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0b92ac8cc918b22cb","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:39.000Z","device":"/dev/sda1","instanceId":"i-0b92ac8cc918b22cb","state":"attached","volumeId":"vol-0986eebd4aabff382","deleteOnTermination":true}],"availabilityZone":"us-east-1c","createTime":"2019-01-21T21:00:39.409Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0986eebd4aabff382","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:00.330Z","configurationStateId":1548104580330,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0986eebd4aabff382","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0986eebd4aabff382","awsRegion":"us-east-1","availabilityZone":"us-east-1c","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:39.409Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-09dd3fe1c0ffba752","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:39.000Z","device":"/dev/sda1","instanceId":"i-09dd3fe1c0ffba752","state":"attached","volumeId":"vol-0a4b559731b5c98df","deleteOnTermination":true}],"availabilityZone":"us-east-1d","createTime":"2019-01-21T21:00:39.159Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0a4b559731b5c98df","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:37.008Z","configurationStateId":1548104617008,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0a4b559731b5c98df","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0a4b559731b5c98df","awsRegion":"us-east-1","availabilityZone":"us-east-1d","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:39.159Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0a86ed0b67dd6af82","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:02:11.000Z","device":"/dev/sda1","instanceId":"i-0a86ed0b67dd6af82","state":"attached","volumeId":"vol-0ab4a707c6db3b47e","deleteOnTermination":true}],"availabilityZone":"us-east-1a","createTime":"2019-01-21T21:02:11.201Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0ab4a707c6db3b47e","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.312Z","configurationStateId":1548104618312,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0ab4a707c6db3b47e","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0ab4a707c6db3b47e","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:02:11.201Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-037682e1a3f9c9d70","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:09.000Z","device":"/dev/sda1","instanceId":"i-037682e1a3f9c9d70","state":"attached","volumeId":"vol-0ad312bb3eada849d","deleteOnTermination":true}],"availabilityZone":"us-east-1e","createTime":"2019-01-21T21:01:09.890Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0ad312bb3eada849d","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:04:08.190Z","configurationStateId":1548104648190,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0ad312bb3eada849d","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0ad312bb3eada849d","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:09.890Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0660b272c7ef17603","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:39.000Z","device":"/dev/sda1","instanceId":"i-0660b272c7ef17603","state":"attached","volumeId":"vol-0ad7005b084964512","deleteOnTermination":true}],"availabilityZone":"us-east-1d","createTime":"2019-01-21T21:00:39.159Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0ad7005b084964512","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:37.008Z","configurationStateId":1548104617008,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0ad7005b084964512","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0ad7005b084964512","awsRegion":"us-east-1","availabilityZone":"us-east-1d","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:39.159Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0f7db4297b129d2c8","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:38.000Z","device":"/dev/sda1","instanceId":"i-0f7db4297b129d2c8","state":"attached","volumeId":"vol-0c2db445063ea62c4","deleteOnTermination":true}],"availabilityZone":"us-east-1a","createTime":"2019-01-21T21:00:38.825Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0c2db445063ea62c4","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:17.179Z","configurationStateId":1548104597179,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0c2db445063ea62c4","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0c2db445063ea62c4","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:38.825Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-09d5e934600c0ef9d","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:40.000Z","device":"/dev/sda1","instanceId":"i-09d5e934600c0ef9d","state":"attached","volumeId":"vol-0d80a4aafd815e031","deleteOnTermination":true}],"availabilityZone":"us-east-1c","createTime":"2019-01-21T21:01:40.912Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0d80a4aafd815e031","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:04:04.643Z","configurationStateId":1548104644643,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0d80a4aafd815e031","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0d80a4aafd815e031","awsRegion":"us-east-1","availabilityZone":"us-east-1c","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:40.912Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0b8a1e357d64eb704","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:40.000Z","device":"/dev/sda1","instanceId":"i-0b8a1e357d64eb704","state":"attached","volumeId":"vol-0e848d423638a69be","deleteOnTermination":true}],"availabilityZone":"us-east-1b","createTime":"2019-01-21T21:01:40.907Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0e848d423638a69be","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:37.008Z","configurationStateId":1548104617008,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0e848d423638a69be","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0e848d423638a69be","awsRegion":"us-east-1","availabilityZone":"us-east-1b","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:40.907Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-07cfb6ed237b4e1ad","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:41.000Z","device":"/dev/sda1","instanceId":"i-07cfb6ed237b4e1ad","state":"attached","volumeId":"vol-0e95745171b1d38cc","deleteOnTermination":true}],"availabilityZone":"us-east-1d","createTime":"2019-01-21T21:01:41.586Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0e95745171b1d38cc","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.312Z","configurationStateId":1548104618312,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0e95745171b1d38cc","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0e95745171b1d38cc","awsRegion":"us-east-1","availabilityZone":"us-east-1d","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:41.586Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-00c629bb16ca30959","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:10.000Z","device":"/dev/sda1","instanceId":"i-00c629bb16ca30959","state":"attached","volumeId":"vol-0ee1f52039cb6b771","deleteOnTermination":true}],"availabilityZone":"us-east-1c","createTime":"2019-01-21T21:01:10.268Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0ee1f52039cb6b771","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.312Z","configurationStateId":1548104618312,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0ee1f52039cb6b771","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0ee1f52039cb6b771","awsRegion":"us-east-1","availabilityZone":"us-east-1c","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:10.268Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0482425ba27c15460","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:41.000Z","device":"/dev/sda1","instanceId":"i-0482425ba27c15460","state":"attached","volumeId":"vol-0efcf4cd9fd586e49","deleteOnTermination":true}],"availabilityZone":"us-east-1e","createTime":"2019-01-21T21:01:41.013Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0efcf4cd9fd586e49","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:25.851Z","configurationStateId":1548104605851,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0efcf4cd9fd586e49","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0efcf4cd9fd586e49","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:41.013Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-05a387ae6aca0a791","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:00:38.000Z","device":"/dev/sda1","instanceId":"i-05a387ae6aca0a791","state":"attached","volumeId":"vol-0f7681d54ac9ab98e","deleteOnTermination":true}],"availabilityZone":"us-east-1a","createTime":"2019-01-21T21:00:38.775Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0f7681d54ac9ab98e","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:17.179Z","configurationStateId":1548104597179,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0f7681d54ac9ab98e","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0f7681d54ac9ab98e","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:00:38.775Z"},{"relatedEvents":[],"relationships":[{"resourceId":"i-0b2e4b89e02c94b10","resourceType":"AWS::EC2::Instance","name":"Is attached to Instance"}],"configuration":{"attachments":[{"attachTime":"2019-01-21T21:01:41.000Z","device":"/dev/sda1","instanceId":"i-0b2e4b89e02c94b10","state":"attached","volumeId":"vol-0f8fcee7649726c9e","deleteOnTermination":true}],"availabilityZone":"us-east-1d","createTime":"2019-01-21T21:01:41.581Z","encrypted":true,"kmsKeyId":"arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538","size":10,"snapshotId":"snap-0e02ca8e73cb6c8c1","state":"in-use","volumeId":"vol-0f8fcee7649726c9e","iops":100,"tags":[],"volumeType":"gp2"},"supplementaryConfiguration":{},"tags":{},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-21T21:03:38.312Z","configurationStateId":1548104618312,"awsAccountId":"528884874493","configurationItemStatus":"ResourceDiscovered","resourceType":"AWS::EC2::Volume","resourceId":"vol-0f8fcee7649726c9e","ARN":"arn:aws:ec2:us-east-1:528884874493:volume/vol-0f8fcee7649726c9e","awsRegion":"us-east-1","availabilityZone":"us-east-1d","configurationStateMd5Hash":"","resourceCreationTime":"2019-01-21T21:01:41.581Z"}]}
+{
+    "fileVersion": "1.0",
+    "configurationItems": [
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0cd115a62ded6616f",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:39.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0cd115a62ded6616f",
+                        "state": "attached",
+                        "volumeId": "vol-01bd9aba91902cb57",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1b",
+                "createTime": "2019-01-21T21:00:39.028Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-01bd9aba91902cb57",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:29.300Z",
+            "configurationStateId": 1548104609300,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-01bd9aba91902cb57",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-01bd9aba91902cb57",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1b",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:39.028Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-06383578356127aea",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:40.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-06383578356127aea",
+                        "state": "attached",
+                        "volumeId": "vol-01cf977ad5c98475c",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "createTime": "2019-01-21T21:01:40.918Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-01cf977ad5c98475c",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:25.851Z",
+            "configurationStateId": 1548104605851,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-01cf977ad5c98475c",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-01cf977ad5c98475c",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:40.918Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-06e9ef8b5d6fec3a6",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:40.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-06e9ef8b5d6fec3a6",
+                        "state": "attached",
+                        "volumeId": "vol-02db22500d466f4bc",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1b",
+                "createTime": "2019-01-21T21:01:40.879Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-02db22500d466f4bc",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:37.008Z",
+            "configurationStateId": 1548104617008,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-02db22500d466f4bc",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-02db22500d466f4bc",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1b",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:40.879Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0c8806dbc76eeae01",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:41.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0c8806dbc76eeae01",
+                        "state": "attached",
+                        "volumeId": "vol-0351f3c09ce2bec59",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1c",
+                "createTime": "2019-01-21T21:01:41.021Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0351f3c09ce2bec59",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:04:04.643Z",
+            "configurationStateId": 1548104644643,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0351f3c09ce2bec59",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0351f3c09ce2bec59",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1c",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:41.021Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0d6f48ee9423847f5",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:38.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0d6f48ee9423847f5",
+                        "state": "attached",
+                        "volumeId": "vol-03a9964c368be5108",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "createTime": "2019-01-21T21:00:38.587Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-03a9964c368be5108",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:25.851Z",
+            "configurationStateId": 1548104605851,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-03a9964c368be5108",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-03a9964c368be5108",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:38.587Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0d6c8c1475d059480",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:10.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0d6c8c1475d059480",
+                        "state": "attached",
+                        "volumeId": "vol-03c359e9a802bf531",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1d",
+                "createTime": "2019-01-21T21:01:10.177Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-03c359e9a802bf531",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.656Z",
+            "configurationStateId": 1548104618656,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-03c359e9a802bf531",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-03c359e9a802bf531",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1d",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:10.177Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0c96ae487a6a9c4fa",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:10.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0c96ae487a6a9c4fa",
+                        "state": "attached",
+                        "volumeId": "vol-03f9845dba79cf5ba",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "createTime": "2019-01-21T21:01:09.984Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-03f9845dba79cf5ba",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.656Z",
+            "configurationStateId": 1548104618656,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-03f9845dba79cf5ba",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-03f9845dba79cf5ba",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:09.984Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-06e922b3fed20cecb",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:09.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-06e922b3fed20cecb",
+                        "state": "attached",
+                        "volumeId": "vol-042318d20ae08e8e3",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "createTime": "2019-01-21T21:01:09.875Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-042318d20ae08e8e3",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:04:08.190Z",
+            "configurationStateId": 1548104648190,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-042318d20ae08e8e3",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-042318d20ae08e8e3",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:09.875Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-03c314e9f238c96ba",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:41.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-03c314e9f238c96ba",
+                        "state": "attached",
+                        "volumeId": "vol-043dcdcf1397c4583",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "createTime": "2019-01-21T21:01:41.864Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-043dcdcf1397c4583",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:04:51.052Z",
+            "configurationStateId": 1548104691052,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-043dcdcf1397c4583",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-043dcdcf1397c4583",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:41.864Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0ae782dd2b41ea3a7",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:38.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0ae782dd2b41ea3a7",
+                        "state": "attached",
+                        "volumeId": "vol-051effafca8a05af6",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "createTime": "2019-01-21T21:00:38.760Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-051effafca8a05af6",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:25.851Z",
+            "configurationStateId": 1548104605851,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-051effafca8a05af6",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-051effafca8a05af6",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:38.760Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-061c3c8a1da5357c8",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:39.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-061c3c8a1da5357c8",
+                        "state": "attached",
+                        "volumeId": "vol-057c4c11763c93b0c",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1c",
+                "createTime": "2019-01-21T21:00:39.447Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-057c4c11763c93b0c",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:00.330Z",
+            "configurationStateId": 1548104580330,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-057c4c11763c93b0c",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-057c4c11763c93b0c",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1c",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:39.447Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0be5e03e90ef8b2d7",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:10.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0be5e03e90ef8b2d7",
+                        "state": "attached",
+                        "volumeId": "vol-05b8469d1206d92c5",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1b",
+                "createTime": "2019-01-21T21:01:10.499Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-05b8469d1206d92c5",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:04:04.643Z",
+            "configurationStateId": 1548104644643,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-05b8469d1206d92c5",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-05b8469d1206d92c5",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1b",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:10.499Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0aebd856fd4ab18ee",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:09.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0aebd856fd4ab18ee",
+                        "state": "attached",
+                        "volumeId": "vol-05cb90ca6a0ffb81a",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "createTime": "2019-01-21T21:01:09.922Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-05cb90ca6a0ffb81a",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.656Z",
+            "configurationStateId": 1548104618656,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-05cb90ca6a0ffb81a",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-05cb90ca6a0ffb81a",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:09.922Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0ff6619e0c262c883",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:10.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0ff6619e0c262c883",
+                        "state": "attached",
+                        "volumeId": "vol-067412fcff4b76a75",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1b",
+                "createTime": "2019-01-21T21:01:10.518Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-067412fcff4b76a75",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:04:04.643Z",
+            "configurationStateId": 1548104644643,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-067412fcff4b76a75",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-067412fcff4b76a75",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1b",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:10.518Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-08109f8a27a27814a",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:10.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-08109f8a27a27814a",
+                        "state": "attached",
+                        "volumeId": "vol-06c08cb257cfa0c03",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1d",
+                "createTime": "2019-01-21T21:01:10.183Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-06c08cb257cfa0c03",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.656Z",
+            "configurationStateId": 1548104618656,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-06c08cb257cfa0c03",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-06c08cb257cfa0c03",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1d",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:10.183Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0cd22044bbcb0345d",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:10.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0cd22044bbcb0345d",
+                        "state": "attached",
+                        "volumeId": "vol-07d0a1b7d8a006660",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1c",
+                "createTime": "2019-01-21T21:01:10.282Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-07d0a1b7d8a006660",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.312Z",
+            "configurationStateId": 1548104618312,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-07d0a1b7d8a006660",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-07d0a1b7d8a006660",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1c",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:10.282Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-08457b70ae6665742",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:39.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-08457b70ae6665742",
+                        "state": "attached",
+                        "volumeId": "vol-085d27c34c8e5e365",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1b",
+                "createTime": "2019-01-21T21:00:39.045Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-085d27c34c8e5e365",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:29.300Z",
+            "configurationStateId": 1548104609300,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-085d27c34c8e5e365",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-085d27c34c8e5e365",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1b",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:39.045Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0e0d8d606e355a935",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:42.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0e0d8d606e355a935",
+                        "state": "attached",
+                        "volumeId": "vol-088ea614fd96c8bea",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "createTime": "2019-01-21T21:01:41.852Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-088ea614fd96c8bea",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:04:51.052Z",
+            "configurationStateId": 1548104691052,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-088ea614fd96c8bea",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-088ea614fd96c8bea",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:41.852Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0b92ac8cc918b22cb",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:39.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0b92ac8cc918b22cb",
+                        "state": "attached",
+                        "volumeId": "vol-0986eebd4aabff382",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1c",
+                "createTime": "2019-01-21T21:00:39.409Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0986eebd4aabff382",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:00.330Z",
+            "configurationStateId": 1548104580330,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0986eebd4aabff382",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0986eebd4aabff382",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1c",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:39.409Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-09dd3fe1c0ffba752",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:39.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-09dd3fe1c0ffba752",
+                        "state": "attached",
+                        "volumeId": "vol-0a4b559731b5c98df",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1d",
+                "createTime": "2019-01-21T21:00:39.159Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0a4b559731b5c98df",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:37.008Z",
+            "configurationStateId": 1548104617008,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0a4b559731b5c98df",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0a4b559731b5c98df",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1d",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:39.159Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0a86ed0b67dd6af82",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:02:11.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0a86ed0b67dd6af82",
+                        "state": "attached",
+                        "volumeId": "vol-0ab4a707c6db3b47e",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "createTime": "2019-01-21T21:02:11.201Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0ab4a707c6db3b47e",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.312Z",
+            "configurationStateId": 1548104618312,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0ab4a707c6db3b47e",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0ab4a707c6db3b47e",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:02:11.201Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-037682e1a3f9c9d70",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:09.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-037682e1a3f9c9d70",
+                        "state": "attached",
+                        "volumeId": "vol-0ad312bb3eada849d",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "createTime": "2019-01-21T21:01:09.890Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0ad312bb3eada849d",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:04:08.190Z",
+            "configurationStateId": 1548104648190,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0ad312bb3eada849d",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0ad312bb3eada849d",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:09.890Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0660b272c7ef17603",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:39.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0660b272c7ef17603",
+                        "state": "attached",
+                        "volumeId": "vol-0ad7005b084964512",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1d",
+                "createTime": "2019-01-21T21:00:39.159Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0ad7005b084964512",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:37.008Z",
+            "configurationStateId": 1548104617008,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0ad7005b084964512",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0ad7005b084964512",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1d",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:39.159Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0f7db4297b129d2c8",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:38.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0f7db4297b129d2c8",
+                        "state": "attached",
+                        "volumeId": "vol-0c2db445063ea62c4",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "createTime": "2019-01-21T21:00:38.825Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0c2db445063ea62c4",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:17.179Z",
+            "configurationStateId": 1548104597179,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0c2db445063ea62c4",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0c2db445063ea62c4",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:38.825Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-09d5e934600c0ef9d",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:40.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-09d5e934600c0ef9d",
+                        "state": "attached",
+                        "volumeId": "vol-0d80a4aafd815e031",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1c",
+                "createTime": "2019-01-21T21:01:40.912Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0d80a4aafd815e031",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:04:04.643Z",
+            "configurationStateId": 1548104644643,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0d80a4aafd815e031",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0d80a4aafd815e031",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1c",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:40.912Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0b8a1e357d64eb704",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:40.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0b8a1e357d64eb704",
+                        "state": "attached",
+                        "volumeId": "vol-0e848d423638a69be",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1b",
+                "createTime": "2019-01-21T21:01:40.907Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0e848d423638a69be",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:37.008Z",
+            "configurationStateId": 1548104617008,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0e848d423638a69be",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0e848d423638a69be",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1b",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:40.907Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-07cfb6ed237b4e1ad",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:41.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-07cfb6ed237b4e1ad",
+                        "state": "attached",
+                        "volumeId": "vol-0e95745171b1d38cc",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1d",
+                "createTime": "2019-01-21T21:01:41.586Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0e95745171b1d38cc",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.312Z",
+            "configurationStateId": 1548104618312,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0e95745171b1d38cc",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0e95745171b1d38cc",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1d",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:41.586Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-00c629bb16ca30959",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:10.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-00c629bb16ca30959",
+                        "state": "attached",
+                        "volumeId": "vol-0ee1f52039cb6b771",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1c",
+                "createTime": "2019-01-21T21:01:10.268Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0ee1f52039cb6b771",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.312Z",
+            "configurationStateId": 1548104618312,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0ee1f52039cb6b771",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0ee1f52039cb6b771",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1c",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:10.268Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0482425ba27c15460",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:41.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0482425ba27c15460",
+                        "state": "attached",
+                        "volumeId": "vol-0efcf4cd9fd586e49",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "createTime": "2019-01-21T21:01:41.013Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0efcf4cd9fd586e49",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:25.851Z",
+            "configurationStateId": 1548104605851,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0efcf4cd9fd586e49",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0efcf4cd9fd586e49",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:41.013Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-05a387ae6aca0a791",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:00:38.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-05a387ae6aca0a791",
+                        "state": "attached",
+                        "volumeId": "vol-0f7681d54ac9ab98e",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "createTime": "2019-01-21T21:00:38.775Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0f7681d54ac9ab98e",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:17.179Z",
+            "configurationStateId": 1548104597179,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0f7681d54ac9ab98e",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0f7681d54ac9ab98e",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:00:38.775Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "i-0b2e4b89e02c94b10",
+                    "resourceType": "AWS::EC2::Instance",
+                    "name": "Is attached to Instance"
+                }
+            ],
+            "configuration": {
+                "attachments": [
+                    {
+                        "attachTime": "2019-01-21T21:01:41.000Z",
+                        "device": "/dev/sda1",
+                        "instanceId": "i-0b2e4b89e02c94b10",
+                        "state": "attached",
+                        "volumeId": "vol-0f8fcee7649726c9e",
+                        "deleteOnTermination": true
+                    }
+                ],
+                "availabilityZone": "us-east-1d",
+                "createTime": "2019-01-21T21:01:41.581Z",
+                "encrypted": true,
+                "kmsKeyId": "arn:aws:kms:us-east-1:528884874493:key/0fad07b4-b64a-4d9e-b3a7-eed356ba1538",
+                "size": 10,
+                "snapshotId": "snap-0e02ca8e73cb6c8c1",
+                "state": "in-use",
+                "volumeId": "vol-0f8fcee7649726c9e",
+                "iops": 100,
+                "tags": [],
+                "volumeType": "gp2"
+            },
+            "supplementaryConfiguration": {},
+            "tags": {},
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-21T21:03:38.312Z",
+            "configurationStateId": 1548104618312,
+            "awsAccountId": "528884874493",
+            "configurationItemStatus": "ResourceDiscovered",
+            "resourceType": "AWS::EC2::Volume",
+            "resourceId": "vol-0f8fcee7649726c9e",
+            "ARN": "arn:aws:ec2:us-east-1:528884874493:volume/vol-0f8fcee7649726c9e",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1d",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2019-01-21T21:01:41.581Z"
+        }
+    ]
+}

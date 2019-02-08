@@ -1,1 +1,1494 @@
-{"fileVersion":"1.0","configurationItems":[{"relatedEvents":[],"relationships":[{"resourceId":"kc95016-citidata-public","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-97986eee","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"citidata-postgres-pub2","dBInstanceClass":"db.t2.medium","engine":"postgres","dBInstanceStatus":"available","masterUsername":"master_user","dBName":"ycsb","endpoint":{"address":"citidata-postgres-pub2.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":5432,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":20,"instanceCreateTime":"2018-10-23T20:21:51.785Z","preferredBackupWindow":"05:18-05:48","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-97986eee","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.postgres9.6","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1a","dBSubnetGroup":{"dBSubnetGroupName":"kc95016-citidata-public","dBSubnetGroupDescription":"Lab Public 1 \u0026 Lab public 2 for RDS testing","vpcId":"vpc-9be87eff","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-da4b81ac","subnetAvailabilityZone":{"name":"us-east-1b"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-64c8d64f","subnetAvailabilityZone":{"name":"us-east-1a"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"mon:07:37-mon:08:07","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:31:53.000Z","multiAZ":false,"engineVersion":"9.6.5","autoMinorVersionUpgrade":true,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"postgresql-license","optionGroupMemberships":[{"optionGroupName":"default:postgres-9-6","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-7GVQTHAPP2ZQWXUMHBXGQMYTMY","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":true,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-pub2","iAMDatabaseAuthenticationEnabled":false,"performanceInsightsEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-7GVQTHAPP2ZQWXUMHBXGQMYTMY","resourceName":"citidata-postgres-pub2","ARN":"arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-pub2","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2018-10-23T20:21:51.785Z"},{"relatedEvents":[],"relationships":[{"resourceId":"kc95016-citidata-public","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-97986eee","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"citidata-rds-postgresql-pub","dBInstanceClass":"db.t2.micro","engine":"postgres","dBInstanceStatus":"available","masterUsername":"master_user","dBName":"ycsb","endpoint":{"address":"citidata-rds-postgresql-pub.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":5432,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":20,"instanceCreateTime":"2018-10-17T23:31:14.104Z","preferredBackupWindow":"05:32-06:02","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-97986eee","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.postgres9.6","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1a","dBSubnetGroup":{"dBSubnetGroupName":"kc95016-citidata-public","dBSubnetGroupDescription":"Lab Public 1 \u0026 Lab public 2 for RDS testing","vpcId":"vpc-9be87eff","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-da4b81ac","subnetAvailabilityZone":{"name":"us-east-1b"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-64c8d64f","subnetAvailabilityZone":{"name":"us-east-1a"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"tue:09:44-tue:10:14","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:32:07.000Z","multiAZ":false,"engineVersion":"9.6.6","autoMinorVersionUpgrade":true,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"postgresql-license","optionGroupMemberships":[{"optionGroupName":"default:postgres-9-6","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-ASKKAVU5YTHDPZKNGGRVOS7EO4","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":true,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:citidata-rds-postgresql-pub","iAMDatabaseAuthenticationEnabled":false,"performanceInsightsEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-ASKKAVU5YTHDPZKNGGRVOS7EO4","resourceName":"citidata-rds-postgresql-pub","ARN":"arn:aws:rds:us-east-1:546156050725:db:citidata-rds-postgresql-pub","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2018-10-17T23:31:14.104Z"},{"relatedEvents":[],"relationships":[{"resourceId":"default-vpc-acdf73c8","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-50867029","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"am89597mariadb","dBInstanceClass":"db.t2.micro","engine":"mariadb","dBInstanceStatus":"available","masterUsername":"Talend_Test_User","dBName":"am89597MariaDB","endpoint":{"address":"am89597mariadb.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":3306,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":5,"instanceCreateTime":"2016-11-17T15:49:31.359Z","preferredBackupWindow":"08:02-08:32","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-50867029","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.mariadb10.0","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1e","dBSubnetGroup":{"dBSubnetGroupName":"default-vpc-acdf73c8","dBSubnetGroupDescription":"Created from the RDS Management Console","vpcId":"vpc-acdf73c8","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-5a127767","subnetAvailabilityZone":{"name":"us-east-1e"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-908858c8","subnetAvailabilityZone":{"name":"us-east-1c"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"tue:03:35-tue:04:05","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:30:00.000Z","multiAZ":false,"engineVersion":"10.0.24","autoMinorVersionUpgrade":true,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"general-public-license","optionGroupMemberships":[{"optionGroupName":"default:mariadb-10-0","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-EZ2GX7PJR37UXCQYVCYMCOOE6M","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":false,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:am89597mariadb","iAMDatabaseAuthenticationEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-EZ2GX7PJR37UXCQYVCYMCOOE6M","resourceName":"am89597mariadb","ARN":"arn:aws:rds:us-east-1:546156050725:db:am89597mariadb","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2016-11-17T15:49:31.359Z"},{"relatedEvents":[],"relationships":[{"resourceId":"kc95016-citidata-public","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-97986eee","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"citidata-mariadb-pub2","dBInstanceClass":"db.t2.medium","engine":"mariadb","dBInstanceStatus":"available","masterUsername":"master_user","dBName":"ycsb","endpoint":{"address":"citidata-mariadb-pub2.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":3306,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":20,"instanceCreateTime":"2018-10-24T02:32:34.336Z","preferredBackupWindow":"07:58-08:28","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-97986eee","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.mariadb10.1","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1a","dBSubnetGroup":{"dBSubnetGroupName":"kc95016-citidata-public","dBSubnetGroupDescription":"Lab Public 1 \u0026 Lab public 2 for RDS testing","vpcId":"vpc-9be87eff","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-da4b81ac","subnetAvailabilityZone":{"name":"us-east-1b"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-64c8d64f","subnetAvailabilityZone":{"name":"us-east-1a"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"thu:06:02-thu:06:32","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:30:00.000Z","multiAZ":false,"engineVersion":"10.1.34","autoMinorVersionUpgrade":true,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"general-public-license","optionGroupMemberships":[{"optionGroupName":"default:mariadb-10-1","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-FJSXVMLFYAYZXDSXKZZQISXT5Y","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":true,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:citidata-mariadb-pub2","iAMDatabaseAuthenticationEnabled":false,"performanceInsightsEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-FJSXVMLFYAYZXDSXKZZQISXT5Y","resourceName":"citidata-mariadb-pub2","ARN":"arn:aws:rds:us-east-1:546156050725:db:citidata-mariadb-pub2","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2018-10-24T02:32:34.336Z"},{"relatedEvents":[],"relationships":[{"resourceId":"kc95016-citidata-public","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-97986eee","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"citidata-postgres-large","dBInstanceClass":"db.t2.large","engine":"postgres","dBInstanceStatus":"available","masterUsername":"master_user","dBName":"ycsb","endpoint":{"address":"citidata-postgres-large.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":5432,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":20,"instanceCreateTime":"2018-10-27T16:37:00.653Z","preferredBackupWindow":"07:22-07:52","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-97986eee","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.postgres9.6","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1a","dBSubnetGroup":{"dBSubnetGroupName":"kc95016-citidata-public","dBSubnetGroupDescription":"Lab Public 1 \u0026 Lab public 2 for RDS testing","vpcId":"vpc-9be87eff","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-da4b81ac","subnetAvailabilityZone":{"name":"us-east-1b"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-64c8d64f","subnetAvailabilityZone":{"name":"us-east-1a"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"wed:03:19-wed:03:49","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:33:14.000Z","multiAZ":false,"engineVersion":"9.6.5","autoMinorVersionUpgrade":false,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"postgresql-license","optionGroupMemberships":[{"optionGroupName":"default:postgres-9-6","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-HUV4AY6XCWQTJPLFB7CK26YVAA","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":true,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-large","iAMDatabaseAuthenticationEnabled":false,"performanceInsightsEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"SOEID","value":"kc95016"},{"key":"workload-type","value":"other"}]},"tags":{"SOEID":"kc95016","workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-HUV4AY6XCWQTJPLFB7CK26YVAA","resourceName":"citidata-postgres-large","ARN":"arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-large","awsRegion":"us-east-1","availabilityZone":"us-east-1a","configurationStateMd5Hash":"","resourceCreationTime":"2018-10-27T16:37:00.653Z"},{"relatedEvents":[],"relationships":[{"resourceId":"kc95016-citidata-public","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-97986eee","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"citidata-rds-mariadb-pub","dBInstanceClass":"db.t2.micro","engine":"mariadb","dBInstanceStatus":"available","masterUsername":"master_user","endpoint":{"address":"citidata-rds-mariadb-pub.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":3306,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":20,"instanceCreateTime":"2018-10-17T23:28:01.033Z","preferredBackupWindow":"10:01-10:31","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-97986eee","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.mariadb10.1","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1b","dBSubnetGroup":{"dBSubnetGroupName":"kc95016-citidata-public","dBSubnetGroupDescription":"Lab Public 1 \u0026 Lab public 2 for RDS testing","vpcId":"vpc-9be87eff","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-da4b81ac","subnetAvailabilityZone":{"name":"us-east-1b"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-64c8d64f","subnetAvailabilityZone":{"name":"us-east-1a"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"mon:05:11-mon:05:41","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:30:00.000Z","multiAZ":false,"engineVersion":"10.1.34","autoMinorVersionUpgrade":true,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"general-public-license","optionGroupMemberships":[{"optionGroupName":"default:mariadb-10-1","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-I7M3XYSJDXLKZT76FOGRBJZTCU","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":true,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:citidata-rds-mariadb-pub","iAMDatabaseAuthenticationEnabled":false,"performanceInsightsEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-I7M3XYSJDXLKZT76FOGRBJZTCU","resourceName":"citidata-rds-mariadb-pub","ARN":"arn:aws:rds:us-east-1:546156050725:db:citidata-rds-mariadb-pub","awsRegion":"us-east-1","availabilityZone":"us-east-1b","configurationStateMd5Hash":"","resourceCreationTime":"2018-10-17T23:28:01.033Z"},{"relatedEvents":[],"relationships":[{"resourceId":"default-vpc-acdf73c8","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-50867029","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"talend-test-db","dBInstanceClass":"db.t2.micro","engine":"oracle-se1","dBInstanceStatus":"available","masterUsername":"Talend_Test_User","dBName":"ORCL","endpoint":{"address":"talend-test-db.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":1521,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":10,"instanceCreateTime":"2016-09-07T17:11:06.491Z","preferredBackupWindow":"06:06-06:36","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-50867029","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.oracle-se1-11.2","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1e","dBSubnetGroup":{"dBSubnetGroupName":"default-vpc-acdf73c8","dBSubnetGroupDescription":"Created from the RDS Management Console","vpcId":"vpc-acdf73c8","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-5a127767","subnetAvailabilityZone":{"name":"us-east-1e"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-908858c8","subnetAvailabilityZone":{"name":"us-east-1c"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"tue:03:04-tue:03:34","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:27:07.000Z","multiAZ":false,"engineVersion":"11.2.0.4.v8","autoMinorVersionUpgrade":false,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"bring-your-own-license","optionGroupMemberships":[{"optionGroupName":"default:oracle-se1-11-2","status":"in-sync"}],"characterSetName":"AL32UTF8","publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-K6EAUFBJ4SLXFFVO443EYL4JE4","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":false,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:talend-test-db","iAMDatabaseAuthenticationEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-K6EAUFBJ4SLXFFVO443EYL4JE4","resourceName":"talend-test-db","ARN":"arn:aws:rds:us-east-1:546156050725:db:talend-test-db","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2016-09-07T17:11:06.491Z"},{"relatedEvents":[],"relationships":[{"resourceId":"default-vpc-acdf73c8","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-50867029","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"am89597oracle","dBInstanceClass":"db.t2.micro","engine":"oracle-se1","dBInstanceStatus":"available","masterUsername":"Talend_test_user","dBName":"ORCL","endpoint":{"address":"am89597oracle.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":1521,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":10,"instanceCreateTime":"2016-11-17T12:26:29.041Z","preferredBackupWindow":"04:43-05:13","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-50867029","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.oracle-se1-11.2","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1e","dBSubnetGroup":{"dBSubnetGroupName":"default-vpc-acdf73c8","dBSubnetGroupDescription":"Created from the RDS Management Console","vpcId":"vpc-acdf73c8","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-5a127767","subnetAvailabilityZone":{"name":"us-east-1e"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-908858c8","subnetAvailabilityZone":{"name":"us-east-1c"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"wed:05:37-wed:06:07","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:29:45.000Z","multiAZ":false,"engineVersion":"11.2.0.4.v9","autoMinorVersionUpgrade":false,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"bring-your-own-license","optionGroupMemberships":[{"optionGroupName":"default:oracle-se1-11-2","status":"in-sync"}],"characterSetName":"AL32UTF8","publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-MIT4SOE5VQPMHJB7YCLH5LHKLA","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":false,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:am89597oracle","iAMDatabaseAuthenticationEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-MIT4SOE5VQPMHJB7YCLH5LHKLA","resourceName":"am89597oracle","ARN":"arn:aws:rds:us-east-1:546156050725:db:am89597oracle","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2016-11-17T12:26:29.041Z"},{"relatedEvents":[],"relationships":[{"resourceId":"kc95016-citidata-public","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-97986eee","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"citidata-postgres-large2","dBInstanceClass":"db.t2.large","engine":"postgres","dBInstanceStatus":"available","masterUsername":"master_user","dBName":"ycsb","endpoint":{"address":"citidata-postgres-large2.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":5432,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":20,"instanceCreateTime":"2018-10-30T12:28:44.239Z","preferredBackupWindow":"03:20-03:50","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-97986eee","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.postgres9.6","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1b","dBSubnetGroup":{"dBSubnetGroupName":"kc95016-citidata-public","dBSubnetGroupDescription":"Lab Public 1 \u0026 Lab public 2 for RDS testing","vpcId":"vpc-9be87eff","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-da4b81ac","subnetAvailabilityZone":{"name":"us-east-1b"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-64c8d64f","subnetAvailabilityZone":{"name":"us-east-1a"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"thu:06:40-thu:07:10","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:31:36.000Z","multiAZ":false,"engineVersion":"9.6.5","autoMinorVersionUpgrade":false,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"postgresql-license","optionGroupMemberships":[{"optionGroupName":"default:postgres-9-6","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-VDLM43LTVNQ4HBXXXHUKN2YYAA","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":true,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-large2","iAMDatabaseAuthenticationEnabled":false,"performanceInsightsEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-VDLM43LTVNQ4HBXXXHUKN2YYAA","resourceName":"citidata-postgres-large2","ARN":"arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-large2","awsRegion":"us-east-1","availabilityZone":"us-east-1b","configurationStateMd5Hash":"","resourceCreationTime":"2018-10-30T12:28:44.239Z"},{"relatedEvents":[],"relationships":[{"resourceId":"default-vpc-acdf73c8","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-50867029","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"talend-mysql-poc","dBInstanceClass":"db.t2.micro","engine":"mysql","dBInstanceStatus":"available","masterUsername":"talendpoc","dBName":"talendpoc_db","endpoint":{"address":"talend-mysql-poc.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":3306,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":15,"instanceCreateTime":"2016-10-03T11:21:23.522Z","preferredBackupWindow":"03:37-04:07","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-50867029","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.mysql5.7","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1e","dBSubnetGroup":{"dBSubnetGroupName":"default-vpc-acdf73c8","dBSubnetGroupDescription":"Created from the RDS Management Console","vpcId":"vpc-acdf73c8","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-5a127767","subnetAvailabilityZone":{"name":"us-east-1e"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-908858c8","subnetAvailabilityZone":{"name":"us-east-1c"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"tue:07:18-tue:07:48","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:30:00.000Z","multiAZ":false,"engineVersion":"5.7.19","autoMinorVersionUpgrade":true,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"general-public-license","optionGroupMemberships":[{"optionGroupName":"default:mysql-5-7","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-VYMTXD6VNALK5PGBQ4SHZYEX3M","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":false,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:talend-mysql-poc","iAMDatabaseAuthenticationEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-VYMTXD6VNALK5PGBQ4SHZYEX3M","resourceName":"talend-mysql-poc","ARN":"arn:aws:rds:us-east-1:546156050725:db:talend-mysql-poc","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2016-10-03T11:21:23.522Z"},{"relatedEvents":[],"relationships":[{"resourceId":"default-vpc-acdf73c8","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-50867029","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"orcl","dBInstanceClass":"db.t2.micro","engine":"oracle-se1","dBInstanceStatus":"available","masterUsername":"AM26966","dBName":"ORCL","endpoint":{"address":"orcl.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":1521,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":10,"instanceCreateTime":"2016-10-20T09:22:19.203Z","preferredBackupWindow":"05:26-05:56","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-50867029","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.oracle-se1-11.2","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1e","dBSubnetGroup":{"dBSubnetGroupName":"default-vpc-acdf73c8","dBSubnetGroupDescription":"Created from the RDS Management Console","vpcId":"vpc-acdf73c8","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-5a127767","subnetAvailabilityZone":{"name":"us-east-1e"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-908858c8","subnetAvailabilityZone":{"name":"us-east-1c"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"sat:07:59-sat:08:29","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:33:55.000Z","multiAZ":false,"engineVersion":"11.2.0.4.v9","autoMinorVersionUpgrade":false,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"bring-your-own-license","optionGroupMemberships":[{"optionGroupName":"default:oracle-se1-11-2","status":"in-sync"}],"characterSetName":"AL32UTF8","publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-WAVK76U556TMBL7E6ZCDEPXJGI","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":false,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:orcl","iAMDatabaseAuthenticationEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-WAVK76U556TMBL7E6ZCDEPXJGI","resourceName":"orcl","ARN":"arn:aws:rds:us-east-1:546156050725:db:orcl","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2016-10-20T09:22:19.203Z"},{"relatedEvents":[],"relationships":[{"resourceId":"default-vpc-acdf73c8","resourceType":"AWS::RDS::DBSubnetGroup","name":"Is associated with DBSubnetGroup"},{"resourceId":"sg-50867029","resourceType":"AWS::EC2::SecurityGroup","name":"Is associated with SecurityGroup"}],"configuration":{"dBInstanceIdentifier":"talend-mariadb-dev","dBInstanceClass":"db.t2.micro","engine":"mariadb","dBInstanceStatus":"available","masterUsername":"Talend_Mdb_User","dBName":"MariaDev","endpoint":{"address":"talend-mariadb-dev.cwns0ftnokao.us-east-1.rds.amazonaws.com","port":3306,"hostedZoneId":"Z2R2ITUGPM61AM"},"allocatedStorage":5,"instanceCreateTime":"2016-09-29T20:44:16.169Z","preferredBackupWindow":"03:54-04:24","backupRetentionPeriod":7,"dBSecurityGroups":[],"vpcSecurityGroups":[{"vpcSecurityGroupId":"sg-50867029","status":"active"}],"dBParameterGroups":[{"dBParameterGroupName":"default.mariadb10.0","parameterApplyStatus":"in-sync"}],"availabilityZone":"us-east-1e","dBSubnetGroup":{"dBSubnetGroupName":"default-vpc-acdf73c8","dBSubnetGroupDescription":"Created from the RDS Management Console","vpcId":"vpc-acdf73c8","subnetGroupStatus":"Complete","subnets":[{"subnetIdentifier":"subnet-5a127767","subnetAvailabilityZone":{"name":"us-east-1e"},"subnetStatus":"Active"},{"subnetIdentifier":"subnet-908858c8","subnetAvailabilityZone":{"name":"us-east-1c"},"subnetStatus":"Active"}]},"preferredMaintenanceWindow":"sat:04:36-sat:05:06","pendingModifiedValues":{"processorFeatures":[]},"latestRestorableTime":"2019-01-22T11:30:00.000Z","multiAZ":false,"engineVersion":"10.0.24","autoMinorVersionUpgrade":true,"readReplicaDBInstanceIdentifiers":[],"readReplicaDBClusterIdentifiers":[],"licenseModel":"general-public-license","optionGroupMemberships":[{"optionGroupName":"default:mariadb-10-0","status":"in-sync"}],"publiclyAccessible":false,"statusInfos":[],"storageType":"gp2","dbInstancePort":0,"storageEncrypted":false,"dbiResourceId":"db-WBWFHYOKR7P77XIGHDV6ZUD2Z4","cACertificateIdentifier":"rds-ca-2015","domainMemberships":[],"copyTagsToSnapshot":false,"monitoringInterval":0,"dBInstanceArn":"arn:aws:rds:us-east-1:546156050725:db:talend-mariadb-dev","iAMDatabaseAuthenticationEnabled":false,"enabledCloudwatchLogsExports":[],"processorFeatures":[]},"supplementaryConfiguration":{"Tags":[{"key":"workload-type","value":"other"}]},"tags":{"workload-type":"other"},"configurationItemVersion":"1.3","configurationItemCaptureTime":"2019-01-22T11:36:22.645Z","configurationStateId":1548156982645,"awsAccountId":"546156050725","configurationItemStatus":"OK","resourceType":"AWS::RDS::DBInstance","resourceId":"db-WBWFHYOKR7P77XIGHDV6ZUD2Z4","resourceName":"talend-mariadb-dev","ARN":"arn:aws:rds:us-east-1:546156050725:db:talend-mariadb-dev","awsRegion":"us-east-1","availabilityZone":"us-east-1e","configurationStateMd5Hash":"","resourceCreationTime":"2016-09-29T20:44:16.169Z"}]}
+{
+    "fileVersion": "1.0",
+    "configurationItems": [
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "kc95016-citidata-public",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-97986eee",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "citidata-postgres-pub2",
+                "dBInstanceClass": "db.t2.medium",
+                "engine": "postgres",
+                "dBInstanceStatus": "available",
+                "masterUsername": "master_user",
+                "dBName": "ycsb",
+                "endpoint": {
+                    "address": "citidata-postgres-pub2.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 5432,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 20,
+                "instanceCreateTime": "2018-10-23T20:21:51.785Z",
+                "preferredBackupWindow": "05:18-05:48",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-97986eee",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.postgres9.6",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "kc95016-citidata-public",
+                    "dBSubnetGroupDescription": "Lab Public 1 & Lab public 2 for RDS testing",
+                    "vpcId": "vpc-9be87eff",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-da4b81ac",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1b"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-64c8d64f",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1a"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "mon:07:37-mon:08:07",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:31:53.000Z",
+                "multiAZ": false,
+                "engineVersion": "9.6.5",
+                "autoMinorVersionUpgrade": true,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "postgresql-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:postgres-9-6",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-7GVQTHAPP2ZQWXUMHBXGQMYTMY",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": true,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-pub2",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "performanceInsightsEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-7GVQTHAPP2ZQWXUMHBXGQMYTMY",
+            "resourceName": "citidata-postgres-pub2",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-pub2",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2018-10-23T20:21:51.785Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "kc95016-citidata-public",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-97986eee",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "citidata-rds-postgresql-pub",
+                "dBInstanceClass": "db.t2.micro",
+                "engine": "postgres",
+                "dBInstanceStatus": "available",
+                "masterUsername": "master_user",
+                "dBName": "ycsb",
+                "endpoint": {
+                    "address": "citidata-rds-postgresql-pub.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 5432,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 20,
+                "instanceCreateTime": "2018-10-17T23:31:14.104Z",
+                "preferredBackupWindow": "05:32-06:02",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-97986eee",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.postgres9.6",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "kc95016-citidata-public",
+                    "dBSubnetGroupDescription": "Lab Public 1 & Lab public 2 for RDS testing",
+                    "vpcId": "vpc-9be87eff",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-da4b81ac",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1b"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-64c8d64f",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1a"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "tue:09:44-tue:10:14",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:32:07.000Z",
+                "multiAZ": false,
+                "engineVersion": "9.6.6",
+                "autoMinorVersionUpgrade": true,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "postgresql-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:postgres-9-6",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-ASKKAVU5YTHDPZKNGGRVOS7EO4",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": true,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:citidata-rds-postgresql-pub",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "performanceInsightsEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-ASKKAVU5YTHDPZKNGGRVOS7EO4",
+            "resourceName": "citidata-rds-postgresql-pub",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:citidata-rds-postgresql-pub",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2018-10-17T23:31:14.104Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "default-vpc-acdf73c8",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-50867029",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "am89597mariadb",
+                "dBInstanceClass": "db.t2.micro",
+                "engine": "mariadb",
+                "dBInstanceStatus": "available",
+                "masterUsername": "Talend_Test_User",
+                "dBName": "am89597MariaDB",
+                "endpoint": {
+                    "address": "am89597mariadb.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 3306,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 5,
+                "instanceCreateTime": "2016-11-17T15:49:31.359Z",
+                "preferredBackupWindow": "08:02-08:32",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-50867029",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.mariadb10.0",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "default-vpc-acdf73c8",
+                    "dBSubnetGroupDescription": "Created from the RDS Management Console",
+                    "vpcId": "vpc-acdf73c8",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-5a127767",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1e"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-908858c8",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1c"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "tue:03:35-tue:04:05",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:30:00.000Z",
+                "multiAZ": false,
+                "engineVersion": "10.0.24",
+                "autoMinorVersionUpgrade": true,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "general-public-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:mariadb-10-0",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-EZ2GX7PJR37UXCQYVCYMCOOE6M",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": false,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:am89597mariadb",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-EZ2GX7PJR37UXCQYVCYMCOOE6M",
+            "resourceName": "am89597mariadb",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:am89597mariadb",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2016-11-17T15:49:31.359Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "kc95016-citidata-public",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-97986eee",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "citidata-mariadb-pub2",
+                "dBInstanceClass": "db.t2.medium",
+                "engine": "mariadb",
+                "dBInstanceStatus": "available",
+                "masterUsername": "master_user",
+                "dBName": "ycsb",
+                "endpoint": {
+                    "address": "citidata-mariadb-pub2.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 3306,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 20,
+                "instanceCreateTime": "2018-10-24T02:32:34.336Z",
+                "preferredBackupWindow": "07:58-08:28",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-97986eee",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.mariadb10.1",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "kc95016-citidata-public",
+                    "dBSubnetGroupDescription": "Lab Public 1 & Lab public 2 for RDS testing",
+                    "vpcId": "vpc-9be87eff",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-da4b81ac",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1b"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-64c8d64f",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1a"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "thu:06:02-thu:06:32",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:30:00.000Z",
+                "multiAZ": false,
+                "engineVersion": "10.1.34",
+                "autoMinorVersionUpgrade": true,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "general-public-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:mariadb-10-1",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-FJSXVMLFYAYZXDSXKZZQISXT5Y",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": true,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:citidata-mariadb-pub2",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "performanceInsightsEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-FJSXVMLFYAYZXDSXKZZQISXT5Y",
+            "resourceName": "citidata-mariadb-pub2",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:citidata-mariadb-pub2",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2018-10-24T02:32:34.336Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "kc95016-citidata-public",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-97986eee",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "citidata-postgres-large",
+                "dBInstanceClass": "db.t2.large",
+                "engine": "postgres",
+                "dBInstanceStatus": "available",
+                "masterUsername": "master_user",
+                "dBName": "ycsb",
+                "endpoint": {
+                    "address": "citidata-postgres-large.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 5432,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 20,
+                "instanceCreateTime": "2018-10-27T16:37:00.653Z",
+                "preferredBackupWindow": "07:22-07:52",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-97986eee",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.postgres9.6",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1a",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "kc95016-citidata-public",
+                    "dBSubnetGroupDescription": "Lab Public 1 & Lab public 2 for RDS testing",
+                    "vpcId": "vpc-9be87eff",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-da4b81ac",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1b"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-64c8d64f",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1a"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "wed:03:19-wed:03:49",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:33:14.000Z",
+                "multiAZ": false,
+                "engineVersion": "9.6.5",
+                "autoMinorVersionUpgrade": false,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "postgresql-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:postgres-9-6",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-HUV4AY6XCWQTJPLFB7CK26YVAA",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": true,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-large",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "performanceInsightsEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "SOEID",
+                        "value": "kc95016"
+                    },
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "SOEID": "kc95016",
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-HUV4AY6XCWQTJPLFB7CK26YVAA",
+            "resourceName": "citidata-postgres-large",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-large",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1a",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2018-10-27T16:37:00.653Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "kc95016-citidata-public",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-97986eee",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "citidata-rds-mariadb-pub",
+                "dBInstanceClass": "db.t2.micro",
+                "engine": "mariadb",
+                "dBInstanceStatus": "available",
+                "masterUsername": "master_user",
+                "endpoint": {
+                    "address": "citidata-rds-mariadb-pub.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 3306,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 20,
+                "instanceCreateTime": "2018-10-17T23:28:01.033Z",
+                "preferredBackupWindow": "10:01-10:31",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-97986eee",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.mariadb10.1",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1b",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "kc95016-citidata-public",
+                    "dBSubnetGroupDescription": "Lab Public 1 & Lab public 2 for RDS testing",
+                    "vpcId": "vpc-9be87eff",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-da4b81ac",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1b"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-64c8d64f",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1a"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "mon:05:11-mon:05:41",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:30:00.000Z",
+                "multiAZ": false,
+                "engineVersion": "10.1.34",
+                "autoMinorVersionUpgrade": true,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "general-public-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:mariadb-10-1",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-I7M3XYSJDXLKZT76FOGRBJZTCU",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": true,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:citidata-rds-mariadb-pub",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "performanceInsightsEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-I7M3XYSJDXLKZT76FOGRBJZTCU",
+            "resourceName": "citidata-rds-mariadb-pub",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:citidata-rds-mariadb-pub",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1b",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2018-10-17T23:28:01.033Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "default-vpc-acdf73c8",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-50867029",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "talend-test-db",
+                "dBInstanceClass": "db.t2.micro",
+                "engine": "oracle-se1",
+                "dBInstanceStatus": "available",
+                "masterUsername": "Talend_Test_User",
+                "dBName": "ORCL",
+                "endpoint": {
+                    "address": "talend-test-db.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 1521,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 10,
+                "instanceCreateTime": "2016-09-07T17:11:06.491Z",
+                "preferredBackupWindow": "06:06-06:36",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-50867029",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.oracle-se1-11.2",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "default-vpc-acdf73c8",
+                    "dBSubnetGroupDescription": "Created from the RDS Management Console",
+                    "vpcId": "vpc-acdf73c8",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-5a127767",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1e"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-908858c8",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1c"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "tue:03:04-tue:03:34",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:27:07.000Z",
+                "multiAZ": false,
+                "engineVersion": "11.2.0.4.v8",
+                "autoMinorVersionUpgrade": false,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "bring-your-own-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:oracle-se1-11-2",
+                        "status": "in-sync"
+                    }
+                ],
+                "characterSetName": "AL32UTF8",
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-K6EAUFBJ4SLXFFVO443EYL4JE4",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": false,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:talend-test-db",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-K6EAUFBJ4SLXFFVO443EYL4JE4",
+            "resourceName": "talend-test-db",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:talend-test-db",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2016-09-07T17:11:06.491Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "default-vpc-acdf73c8",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-50867029",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "am89597oracle",
+                "dBInstanceClass": "db.t2.micro",
+                "engine": "oracle-se1",
+                "dBInstanceStatus": "available",
+                "masterUsername": "Talend_test_user",
+                "dBName": "ORCL",
+                "endpoint": {
+                    "address": "am89597oracle.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 1521,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 10,
+                "instanceCreateTime": "2016-11-17T12:26:29.041Z",
+                "preferredBackupWindow": "04:43-05:13",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-50867029",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.oracle-se1-11.2",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "default-vpc-acdf73c8",
+                    "dBSubnetGroupDescription": "Created from the RDS Management Console",
+                    "vpcId": "vpc-acdf73c8",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-5a127767",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1e"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-908858c8",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1c"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "wed:05:37-wed:06:07",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:29:45.000Z",
+                "multiAZ": false,
+                "engineVersion": "11.2.0.4.v9",
+                "autoMinorVersionUpgrade": false,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "bring-your-own-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:oracle-se1-11-2",
+                        "status": "in-sync"
+                    }
+                ],
+                "characterSetName": "AL32UTF8",
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-MIT4SOE5VQPMHJB7YCLH5LHKLA",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": false,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:am89597oracle",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-MIT4SOE5VQPMHJB7YCLH5LHKLA",
+            "resourceName": "am89597oracle",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:am89597oracle",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2016-11-17T12:26:29.041Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "kc95016-citidata-public",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-97986eee",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "citidata-postgres-large2",
+                "dBInstanceClass": "db.t2.large",
+                "engine": "postgres",
+                "dBInstanceStatus": "available",
+                "masterUsername": "master_user",
+                "dBName": "ycsb",
+                "endpoint": {
+                    "address": "citidata-postgres-large2.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 5432,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 20,
+                "instanceCreateTime": "2018-10-30T12:28:44.239Z",
+                "preferredBackupWindow": "03:20-03:50",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-97986eee",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.postgres9.6",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1b",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "kc95016-citidata-public",
+                    "dBSubnetGroupDescription": "Lab Public 1 & Lab public 2 for RDS testing",
+                    "vpcId": "vpc-9be87eff",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-da4b81ac",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1b"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-64c8d64f",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1a"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "thu:06:40-thu:07:10",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:31:36.000Z",
+                "multiAZ": false,
+                "engineVersion": "9.6.5",
+                "autoMinorVersionUpgrade": false,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "postgresql-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:postgres-9-6",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-VDLM43LTVNQ4HBXXXHUKN2YYAA",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": true,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-large2",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "performanceInsightsEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-VDLM43LTVNQ4HBXXXHUKN2YYAA",
+            "resourceName": "citidata-postgres-large2",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:citidata-postgres-large2",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1b",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2018-10-30T12:28:44.239Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "default-vpc-acdf73c8",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-50867029",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "talend-mysql-poc",
+                "dBInstanceClass": "db.t2.micro",
+                "engine": "mysql",
+                "dBInstanceStatus": "available",
+                "masterUsername": "talendpoc",
+                "dBName": "talendpoc_db",
+                "endpoint": {
+                    "address": "talend-mysql-poc.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 3306,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 15,
+                "instanceCreateTime": "2016-10-03T11:21:23.522Z",
+                "preferredBackupWindow": "03:37-04:07",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-50867029",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.mysql5.7",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "default-vpc-acdf73c8",
+                    "dBSubnetGroupDescription": "Created from the RDS Management Console",
+                    "vpcId": "vpc-acdf73c8",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-5a127767",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1e"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-908858c8",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1c"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "tue:07:18-tue:07:48",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:30:00.000Z",
+                "multiAZ": false,
+                "engineVersion": "5.7.19",
+                "autoMinorVersionUpgrade": true,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "general-public-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:mysql-5-7",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-VYMTXD6VNALK5PGBQ4SHZYEX3M",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": false,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:talend-mysql-poc",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-VYMTXD6VNALK5PGBQ4SHZYEX3M",
+            "resourceName": "talend-mysql-poc",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:talend-mysql-poc",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2016-10-03T11:21:23.522Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "default-vpc-acdf73c8",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-50867029",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "orcl",
+                "dBInstanceClass": "db.t2.micro",
+                "engine": "oracle-se1",
+                "dBInstanceStatus": "available",
+                "masterUsername": "AM26966",
+                "dBName": "ORCL",
+                "endpoint": {
+                    "address": "orcl.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 1521,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 10,
+                "instanceCreateTime": "2016-10-20T09:22:19.203Z",
+                "preferredBackupWindow": "05:26-05:56",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-50867029",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.oracle-se1-11.2",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "default-vpc-acdf73c8",
+                    "dBSubnetGroupDescription": "Created from the RDS Management Console",
+                    "vpcId": "vpc-acdf73c8",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-5a127767",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1e"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-908858c8",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1c"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "sat:07:59-sat:08:29",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:33:55.000Z",
+                "multiAZ": false,
+                "engineVersion": "11.2.0.4.v9",
+                "autoMinorVersionUpgrade": false,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "bring-your-own-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:oracle-se1-11-2",
+                        "status": "in-sync"
+                    }
+                ],
+                "characterSetName": "AL32UTF8",
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-WAVK76U556TMBL7E6ZCDEPXJGI",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": false,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:orcl",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-WAVK76U556TMBL7E6ZCDEPXJGI",
+            "resourceName": "orcl",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:orcl",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2016-10-20T09:22:19.203Z"
+        },
+        {
+            "relatedEvents": [],
+            "relationships": [
+                {
+                    "resourceId": "default-vpc-acdf73c8",
+                    "resourceType": "AWS::RDS::DBSubnetGroup",
+                    "name": "Is associated with DBSubnetGroup"
+                },
+                {
+                    "resourceId": "sg-50867029",
+                    "resourceType": "AWS::EC2::SecurityGroup",
+                    "name": "Is associated with SecurityGroup"
+                }
+            ],
+            "configuration": {
+                "dBInstanceIdentifier": "talend-mariadb-dev",
+                "dBInstanceClass": "db.t2.micro",
+                "engine": "mariadb",
+                "dBInstanceStatus": "available",
+                "masterUsername": "Talend_Mdb_User",
+                "dBName": "MariaDev",
+                "endpoint": {
+                    "address": "talend-mariadb-dev.cwns0ftnokao.us-east-1.rds.amazonaws.com",
+                    "port": 3306,
+                    "hostedZoneId": "Z2R2ITUGPM61AM"
+                },
+                "allocatedStorage": 5,
+                "instanceCreateTime": "2016-09-29T20:44:16.169Z",
+                "preferredBackupWindow": "03:54-04:24",
+                "backupRetentionPeriod": 7,
+                "dBSecurityGroups": [],
+                "vpcSecurityGroups": [
+                    {
+                        "vpcSecurityGroupId": "sg-50867029",
+                        "status": "active"
+                    }
+                ],
+                "dBParameterGroups": [
+                    {
+                        "dBParameterGroupName": "default.mariadb10.0",
+                        "parameterApplyStatus": "in-sync"
+                    }
+                ],
+                "availabilityZone": "us-east-1e",
+                "dBSubnetGroup": {
+                    "dBSubnetGroupName": "default-vpc-acdf73c8",
+                    "dBSubnetGroupDescription": "Created from the RDS Management Console",
+                    "vpcId": "vpc-acdf73c8",
+                    "subnetGroupStatus": "Complete",
+                    "subnets": [
+                        {
+                            "subnetIdentifier": "subnet-5a127767",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1e"
+                            },
+                            "subnetStatus": "Active"
+                        },
+                        {
+                            "subnetIdentifier": "subnet-908858c8",
+                            "subnetAvailabilityZone": {
+                                "name": "us-east-1c"
+                            },
+                            "subnetStatus": "Active"
+                        }
+                    ]
+                },
+                "preferredMaintenanceWindow": "sat:04:36-sat:05:06",
+                "pendingModifiedValues": {
+                    "processorFeatures": []
+                },
+                "latestRestorableTime": "2019-01-22T11:30:00.000Z",
+                "multiAZ": false,
+                "engineVersion": "10.0.24",
+                "autoMinorVersionUpgrade": true,
+                "readReplicaDBInstanceIdentifiers": [],
+                "readReplicaDBClusterIdentifiers": [],
+                "licenseModel": "general-public-license",
+                "optionGroupMemberships": [
+                    {
+                        "optionGroupName": "default:mariadb-10-0",
+                        "status": "in-sync"
+                    }
+                ],
+                "publiclyAccessible": false,
+                "statusInfos": [],
+                "storageType": "gp2",
+                "dbInstancePort": 0,
+                "storageEncrypted": false,
+                "dbiResourceId": "db-WBWFHYOKR7P77XIGHDV6ZUD2Z4",
+                "cACertificateIdentifier": "rds-ca-2015",
+                "domainMemberships": [],
+                "copyTagsToSnapshot": false,
+                "monitoringInterval": 0,
+                "dBInstanceArn": "arn:aws:rds:us-east-1:546156050725:db:talend-mariadb-dev",
+                "iAMDatabaseAuthenticationEnabled": false,
+                "enabledCloudwatchLogsExports": [],
+                "processorFeatures": []
+            },
+            "supplementaryConfiguration": {
+                "Tags": [
+                    {
+                        "key": "workload-type",
+                        "value": "other"
+                    }
+                ]
+            },
+            "tags": {
+                "workload-type": "other"
+            },
+            "configurationItemVersion": "1.3",
+            "configurationItemCaptureTime": "2019-01-22T11:36:22.645Z",
+            "configurationStateId": 1548156982645,
+            "awsAccountId": "546156050725",
+            "configurationItemStatus": "OK",
+            "resourceType": "AWS::RDS::DBInstance",
+            "resourceId": "db-WBWFHYOKR7P77XIGHDV6ZUD2Z4",
+            "resourceName": "talend-mariadb-dev",
+            "ARN": "arn:aws:rds:us-east-1:546156050725:db:talend-mariadb-dev",
+            "awsRegion": "us-east-1",
+            "availabilityZone": "us-east-1e",
+            "configurationStateMd5Hash": "",
+            "resourceCreationTime": "2016-09-29T20:44:16.169Z"
+        }
+    ]
+}
