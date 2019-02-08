@@ -20,7 +20,7 @@ work_dir = ""
 
 
 def download_objects(bucket, work_dir):
-    command = "aws cp --recursive s3://%s %s" %(bucket, work_dir)
+    command = "aws s3 cp --recursive s3://%s %s" %(bucket, work_dir)
     sp.Popen(command).wait()
     print('All Objects Downloaded')
 
@@ -99,3 +99,4 @@ connection.commit()
 connection.close()
 
 
+c
