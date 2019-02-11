@@ -62,7 +62,15 @@ def main():
                     new_dict = {}
                     for i in json_str:
                         new_dict['resourceType'] = i['resourceType']
-                        new_dict['resourceId'] = i['resourceId']
+                        if len(i['resourceId']) > 30:
+                            try:
+                                rid = i['resourceId'].split('/')
+                                riid = rid[-2]
+                                new_dict['resourceId'] = riid
+                            except:
+                                pass
+                        else:
+                            new_dict['resourceId'] = i['resourceId']
                         try:
                             new_dict['arn'] = i['ARN']
                         except Exception:
@@ -97,6 +105,3 @@ def main():
 main()
 connection.commit()
 connection.close()
-
-
-c
